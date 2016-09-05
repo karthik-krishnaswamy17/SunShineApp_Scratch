@@ -38,7 +38,7 @@ public class ForecastFragment extends Fragment {
         String[] s = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
         adapter = new ArrayAdapter<String>(
                 getActivity(),
-                R.layout.fragment_forecast,
+                R.layout.list_item_forecast,
                 R.id.list_item_forecast_textview,
                 s);
         ListView listView = (ListView) v.findViewById(R.id.fr_listView);

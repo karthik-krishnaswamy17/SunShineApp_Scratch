@@ -3,9 +3,6 @@
     android:id="@+id/list_item_forecast_textview"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F0F"
     android:gravity="center_vertical"
-    android:padding="10dp"
-    android:textColor="#F0F"
-    android:textSize="20dp"></TextView>
+    android:padding="16dp"></TextView>
 
