@@ -11,5 +11,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ForecastFragment fragment = new ForecastFragment();
         getSupportFragmentManager().beginTransaction().add(R.id.container, fragment).commit();
+
+
     }
+
 }
