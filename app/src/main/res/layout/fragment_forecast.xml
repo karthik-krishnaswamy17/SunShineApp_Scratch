@@ -4,7 +4,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.android.developer.sunshineapp_scratch.ForecastFragment">
-
     <!-- TODO: Update blank fragment layout -->
 
     <ListView xmlns:android="http://schemas.android.com/apk/res/android"
@@ -12,10 +11,16 @@
         android:id="@+id/fr_listView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment"
         tools:context="com.android.developer.sunshineapp_scratch.ForecastFragment"
+        tools:text="@string/hello_blank_fragment"
 
         />
+
+    <Button
+        android:id="@+id/test_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test" />
 
 </LinearLayout>
 
